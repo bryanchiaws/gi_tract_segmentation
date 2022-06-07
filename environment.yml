@@ -1,0 +1,20 @@
+name: cs231n
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - pip=20.3.1
+  - python=3.6.8
+  - pytorch-lightning
+  - pytorch-ignite
+  - numpy
+  - tqdm
+  - pandas
+  - torchmetrics=0.6.0
+  - pip:
+    - opencv-python
+    - segmentation_models_pytorch
+    - efficientnet_pytorch
+    - pretrainedmodels
+    - monai
