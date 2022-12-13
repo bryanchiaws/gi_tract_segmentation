@@ -62,7 +62,6 @@ We would suggest you to put the implementation of optimizer, loss, evaluation me
 For other project-specified codes (such as pre-processing and data visualization), you might want to leave them to `/custom`.
 
 ## Useful links 
-- [Negative sampling (Google Map API)](https://github.com/stanfordmlgroup/old-starter/blob/master/preprocess/get_negatives.py)
 - [Example of dataset implementation: USGS dataset](https://github.com/stanfordmlgroup/old-starter/blob/master/data/usgs_dataset.py)
 - [Documentation for Fire](https://github.com/google/python-fire/blob/master/docs/guide.md)
 - [Documentation for Pytorch Lighning](https://pytorch-lightning.readthedocs.io/en/stable/)
