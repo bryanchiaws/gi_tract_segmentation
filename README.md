@@ -3,6 +3,7 @@
 * Building on the better-performing streamlined UNet, we investigate using multi-task learning via supervised (regression) methods and self-supervised (contrastive learning) methods. We find that the contrastive learning method has some benefits in cases where the test distribution is signficantly different from the training distribution (i.e. the patient is not seen by the model during training time). 
 * Finally, we also investigate a method of improving on the UNet model by adding image metadata such as the position of the MRI scan crosssection, and the pixel height and width known as Featurewise Linear Modulation (FiLM). We find that FiLM is beneficial when there is a slight overlap in the training and test distribution, in that the test distribution consist of future scans of patients previously trained on.
 * Paper linked here: http://cs231n.stanford.edu/reports/2022/pdfs/75.pdf
+* Poster (Project Overview) linked here: https://github.com/bryanchiaws/gi_tract_segmentation/blob/main/CV_project_poster.pdf
 
 ## Quick start
 ### Set up virtual environment
